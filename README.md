@@ -93,9 +93,6 @@ requests==2.31.0
 shapely==2.0.2
 ```
 
-## License
-
-MIT License
 
 ## Acknowledgments
 
