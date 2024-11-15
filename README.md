@@ -35,8 +35,8 @@ project/
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/vaani-dashboard.git
-cd vaani-dashboard
+git clone https://github.com/ldai-artpark/bts-app.git
+cd bts-app
 ```
 
 2. Install dependencies
