@@ -23,7 +23,7 @@ project/
 ├── app.py              # Main application file
 ├── requirements.txt    # Python dependencies
 ├── data/              # Data files
-│   └── sample2.json   # Sample data
+│   └── sample.json   # Sample data
 └── logo/              # Logo assets
     ├── ARTPARK.png
     ├── IISC.png 
