@@ -245,7 +245,7 @@ def add_footer():
     logo_google = LOGO_DIR / "google.png"
     logo_bhashini = LOGO_DIR / "bhashini.png"
     logo_bmgf = LOGO_DIR / "bmgf.png"
-    logo_giz = LOGO_DIR / "giz-logo.gif"
+    logo_giz = LOGO_DIR / "giz-logo.png"
     st.markdown(f"""
         <style>
         .footer {{
@@ -424,7 +424,7 @@ def main():
     with map_col:
         # WER Thresholds legend
         st.markdown("""
-            <div style="position: absolute; top: 20px; right: 35px; padding: 20px; background-color: var(--secondary-background-color); border-radius: 10px; display: flex; justify-content: space-around; z-index: 1000;">
+            <div style="position: absolute; top: 20px; left: 35px; padding: 20px; background-color: var(--secondary-background-color); border-radius: 10px; display: flex; justify-content: space-around; z-index: 1000;">
                 <div style="display: flex; align-items: center; margin-right: 10px;">
                     <div style="width: 20px; height: 20px; background-color: #00ff00; margin-right: 10px; opacity: 0.7; border: 1px solid var(--text-color);"></div>
                     <span style="color: var(--text-color);">WER ≤ 20%</span>
@@ -456,6 +456,9 @@ def main():
             max_lat=KARNATAKA_BOUNDS[1][0],
             min_lon=KARNATAKA_BOUNDS[0][1],
             max_lon=KARNATAKA_BOUNDS[1][1],
+            scrollWheelZoom=False,
+            dragging=False
+
         )
 
         def style_function(feature):
